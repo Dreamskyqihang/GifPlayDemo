@@ -10,6 +10,13 @@
 
 @interface UIImageView (GifPlay)
 
+/**
+ *  imageView播放gif图片
+ *
+ *  @parma path gif路径
+ *  @parma duration 播放持续时间
+ *  @parma repeat 是否重复播放
+ */
 - (void)showGifImageWithGifPath:(NSString *)path duration:(NSTimeInterval)duration repeat:(BOOL)repeat;
 
 @end
